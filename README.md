@@ -35,7 +35,7 @@ I had no prior experience Swift or iOS development and learned the material thro
 
 ## License
 
-Copyright [2015] [name of copyright owner]
+Copyright [2015] [Anita Leung]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
