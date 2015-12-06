@@ -31,7 +31,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I had no prior experience Swift or iOS development and learned the material through Google and Stack Overflow. 
+I had no prior experience Swift or iOS development and learned the material through Google and Stack Overflow. Within the next two weeks I may refactor my code or implement some of the optional features. 
 
 ## License
 
