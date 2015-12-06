@@ -20,8 +20,8 @@ The following **optional** features are implemented:
 * [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
-* [X] Remembering the bill amount across app restarts (unsure of time)
-* [X] Implement slider to adjust default tip
+* [ ] Remembering the bill amount across app restarts (unsure of time)
+* [ ] Implement slider to adjust default tip
 
 Within the next two weeks or so I may:
 - [ ] Add animations 
@@ -31,7 +31,7 @@ Within the next two weeks or so I may:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/anitaleung/codepath-tip-pal/blob/master/codepath-tip-pal-walkthrough.gif?raw=true' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
