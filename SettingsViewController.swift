@@ -18,6 +18,9 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Auto focus defaultTipField
+        self.defaultTipField.becomeFirstResponder()
+        
         let defaultTipPercent = defaults.stringForKey("defaultTip")
         
         if defaultTipPercent != nil {
@@ -35,7 +38,7 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func defaultTipSliderChanged(sender: AnyObject) {
-        defaults.setObject(String(defaultTipSlider.value), forKey: "defaultTip")
+        defaults.setObject(String(round(defaultTipSlider.value)), forKey: "defaultTip")
         defaults.synchronize()
         defaultTipField.text = String(format: "%.f", defaultTipSlider.value)
     }
@@ -51,6 +54,8 @@ class SettingsViewController: UIViewController {
         } else {
             defaultTipSlider.value = 0.00
         }
+        defaults.setObject(String(defaultTipSlider.value), forKey: "defaultTip")
+        defaults.synchronize()
     }
     
     @IBAction func onTap(sender: AnyObject) {
